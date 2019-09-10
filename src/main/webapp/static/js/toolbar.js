@@ -3753,7 +3753,7 @@ var Modes = (function() {
      */
     message: (function() {
       var hasInitialized = false;
-      var key = "ba451acf-e504-4c5a-9aea-8b0401d1ec93"; // API Key for the smtp server.
+      var key = "your-api-key"; // API Key for the smtp server.
 
       // JQuery fetched DOM elements
       var $formInfo = undefined;
@@ -3859,8 +3859,8 @@ var Modes = (function() {
             <div>\n\n${m}\n\n</div>
           </div>`,
           to: e,
-          from: "sluwhiteboard@gmail.com",
-          fromName: "Saint Leo Whiteboard",
+          from: "yourEmail@whitboard.edu", // TODO Replace with your desired system email.
+          fromName: "Your University Whiteboard",
           subject: s
         }).then(resp => {
           $sending.hide();

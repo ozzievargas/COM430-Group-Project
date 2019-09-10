@@ -1,6 +1,6 @@
 # <div style='text-align: center' >MeTL Instructions for Group 1 Summer 2019</div>
 
-To see the original readme click [HERE](./README-ORIGINAL.md)
+To see the original readme click [HERE](./README-ORGINAL.md)
 
 ### Circle CI Status
 
